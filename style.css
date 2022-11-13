@@ -14,7 +14,9 @@ body{
     justify-content: space-between;
     margin: -8px;
 }
-
+[src="./assets/white-logo.png"]:hover{
+    cursor: pointer;
+}
 .navbar img{
     margin:10px;
     margin-left: 50px;
@@ -24,10 +26,15 @@ body{
     display: flex;
     flex-direction: row;
     list-style: none;
+    font-family: 'Oswald', sans-serif;
 }
 .list li{
     margin-top:5px;
     margin: 0px 30px;
+}
+.list li:hover{
+    cursor: pointer;
+    color: gray;
 }
 .grow-list{
     margin-left: -718px;
@@ -41,20 +48,27 @@ body{
     border: none;
     border-radius: 8px;
 }
-
+.button-small:hover{
+    color: black;
+    cursor: pointer;
+    background-color: #fff;
+}
 .hero{
     text-align:center;
+    margin-top: 130px;
 }
 .hero-heading{
     color:white;
-    font-size: 110px;
+    font-size: 70px;
     font-weight: bold;
+    font-family: 'Oswald', sans-serif;
 }
 .hero-description{
     color:white;
     font-size:20px;
-    margin-top: -60px;
+    margin-top: -30px;
     font-weight: bold;
+    font-family: 'Oswald', sans-serif;
 }
 .button-large{
     background-color: blueviolet;
@@ -64,4 +78,10 @@ body{
     padding:20px 50px;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 20px;
+}
+.button-large:hover{
+    color: black;
+    cursor: pointer;
+    background-color: #fff;
 }
